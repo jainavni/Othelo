@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:background="@drawable/bg2"
+android:layout_height="match_parent"
+tools:context="com.example.avnijain.othelo.start">
+<!--<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/black"
+    android:gravity="center"
+    android:background="#4DFFFFFF"
+    android:fontFamily="monospace"
+    android:text="OTHELO"
+    android:textSize="30sp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="7dp"/>-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingTop="60dp"
+    android:background="#33000000"
+    android:layout_centerInParent="true"
+    android:orientation="vertical">
+
+    <Button
+
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#4D000000"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="START GAME"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/RulesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#4D000000"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="RULES"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/CreditButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#4D000000"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="CREDITS"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+</LinearLayout>
+
+</RelativeLayout>
